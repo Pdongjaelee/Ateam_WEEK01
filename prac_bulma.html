@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bulma 쓰는 법 연습하기</title>
+
+    <!-- Bulma CSS 링크 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <style>
+        .section {
+            width: 600px;
+            max-width: 100vw;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<section class="hero is-primary is-bold is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                프리미어리그 리뷰
+            </h1>
+            <h2 class="subtitle">
+                Hero subtitle
+            </h2>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <h1 class="title">Section</h1>
+        <h2 class="subtitle">
+            A simple container to divide your page into <strong>sections</strong>, like the one you're
+            currently reading
+        </h2>
+    </div>
+</section>
+<div class="box">
+    <article class="media">
+        <div class="media-left">
+            <figure class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+            </figure>
+        </div>
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit
+                    amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                </p>
+            </div>
+            <nav class="level is-mobile">
+                <div class="level-left">
+                    <a class="level-item" aria-label="reply">
+                            <span class="icon is-small">
+                              <i class="fas fa-reply" aria-hidden="true"></i>
+                            </span>
+                    </a>
+                    <a class="level-item" aria-label="retweet">
+                            <span class="icon is-small">
+                              <i class="fas fa-retweet" aria-hidden="true"></i>
+                            </span>
+                    </a>
+                    <a class="level-item" aria-label="like">
+                            <span class="icon is-small">
+                              <i class="fas fa-heart" aria-hidden="true"></i>
+                            </span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </article>
+</div>
+<button class="button is-primary is-outlined is-large is-fullwidth is-loading"></button>
+</body>
+</html>
